@@ -15,7 +15,7 @@ class SplashActivity : AppCompatActivity() {
 
         carregar()
     }
-
+    //git add .  /  git commit -m ""  / git push origin master
     fun carregar () {
         Handler().postDelayed({
             startActivity(Intent (this, MainActivity::class.java))
@@ -23,3 +23,4 @@ class SplashActivity : AppCompatActivity() {
         }, tempoDoSplash)
     }
 }
+
